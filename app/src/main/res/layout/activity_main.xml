@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+    <EditText
+        android:id="@+id/user"
+        android:background="@drawable/shape_edit"
+        android:layout_width="match_parent"
+        android:padding="4dp"
+        android:layout_height="40dp"
+        android:hint="@string/username"
+        android:textSize="20sp"
+        android:inputType="text"
+        android:layout_margin="5dp"/>
+    <EditText
+        android:id="@+id/email"
+        android:background="@drawable/shape_edit"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="@string/email"
+        android:padding="4dp"
+        android:textSize="20sp"
+
+        android:inputType="textEmailAddress"
+        android:layout_margin="5dp"/>
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:padding="4dp"
+        android:background="@drawable/shape_edit"
+        android:hint="@string/password"
+        android:textSize="20sp"
+        android:inputType="text"
+        android:layout_margin="5dp"/>
+
+
+    <Button
+        android:id="@+id/sign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        android:shadowRadius="10.0"
+        android:background="@color/colorPrimary"
+        android:text="@string/sign_up"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="110dp"
+        android:layout_gravity="center"
+        android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:text="@string/already_sign_login_here" />
+
+
+</LinearLayout>

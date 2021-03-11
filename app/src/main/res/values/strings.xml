@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Authentication</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log in</string>
+    <string name="home">Home</string>
+    <string name="LOGin">Log in</string>
+    <string name="already_sign_login_here">Already Sign,LogIn here</string>
+    <string name="sign_up">Sign Up</string>
+</resources>
